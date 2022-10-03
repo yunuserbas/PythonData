@@ -27,6 +27,8 @@ Original file is located at
 Optional Question: Create a function that returns the mode of a list of numbers when more than one modal value is present in a given data set. For example [68, 68, 68, 99, 65, 44, 77, 44, 44] --> [68, 44]
 """
 
+## Question 1
+
 def square(n):
   return n*n
 
@@ -38,6 +40,8 @@ else:
     
 square(i)
 
+## Question 2
+
 def cube(n):
   return n*n*n
 
@@ -48,6 +52,8 @@ if '.' in i:
 else:
     i = int(i)
 cube(i)
+
+## Question 3
 
 def absolute(n):
 
@@ -64,6 +70,8 @@ else:
     i = int(i)
 absolute(i)
 
+## Question 4
+
 def fac(n):
   
   fact = 1
@@ -72,6 +80,8 @@ def fac(n):
   return fact
 
 print(fac(int(input())))
+
+## Question 5
 
 def itirating(size):
   list = []
@@ -93,6 +103,8 @@ def itirating(size):
 
 print(itirating(int(input("Enter the size of list :"))))
 
+## Question 6
+
 def average(size):
   list = []
   total = 0
@@ -106,6 +118,8 @@ def average(size):
 
 print(average(int(input("Enter the size of list :"))))
 
+## Question 7
+
 def minimum(size):
   list = []
   for i in range (size):
@@ -117,8 +131,9 @@ def minimum(size):
     list.append(n)
   return (f'The mimimum of your list: {min(list)}')
 
-
 print(minimum(int(input("Enter the size of list :"))))
+
+## Question 8
 
 def maximum(size):
   list = []
